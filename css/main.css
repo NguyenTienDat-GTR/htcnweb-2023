@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.head-top{
+    background-color: #261511;
+    border-bottom: 0.5px solid #fff;
+}
+.sub-head-top{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+    padding-top: 10px;
+}
+.sub-head-top h2{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sub-head-top nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 400px;
+}
+.sub-head-top nav ul li{
+    display: flex;
+}
+.sub-head-top nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.box-cart{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+.box-cart a{
+    position: relative;
+    top: -7.5px;
+}
+.box-cart i{
+    margin-left: 10px;
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+.count-cart span{
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    padding: 1px 4px;
+}
+.logo-search{
+    background-color: #261511;
+}
+.sub-logo-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    position: relative;
+    left: 350px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.hotline{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotline i{
+    margin-right: 5px;
+    transform: rotate(20deg);
+    font-size: 28px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search-bar input{
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: lightgray;
+}
+.search-bar ion-icon{
+    color: #261511;
+    position: absolute;
+    right: 1px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-menu{
+    background-color: #433330;
+    padding: 10px 0 5px 0;
+    width: 100%;
+}
+.main-menu nav ul{
+    display: flex;
+    gap: 40px;   
+}
+.main-menu nav{
+    margin-left: 250px;
+}
+.main-menu ul{
+    list-style: none;
+
+}
+.main-menu ul a{
+    color: white;
+    text-decoration: none;
+}
+.main-menu ul a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.main-menu nav ul li{
+    position: relative;
+}
+.main-menu nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 19px;
+    left: -12px;
+    display: none;
+}
+.main-menu nav ul li ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+.main-menu ul li:hover ul{
+    display: block;
+    width: 230px;
+    padding: 5px 0 0 15px;
+    height: 300px;
+}
+.main-content{
+    margin-top: 30px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-areas: 
+    "store payment"
+    "info  payment"
+    ;
+}
+.Store{
+    grid-area: store;
+    width: 600px;
+}
+.Store h3{
+    background-color: #3F4140;
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+}
+.store-content{
+    display: flex;
+    justify-content: space-around;
+    border: 0.2px solid #cfcfcf;
+    padding: 10px 0 20px 0;
+}
+.goods-tilte h4{
+    color: #7b706f;
+    text-decoration: underline;
+}
+.goods-tilte input{
+    width: 100px;
+    font-size: 15px;
+    background-color: #d3d3d355;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+}
+.goods-number .num1{
+    color: #c4996b;
+}
+.Store button{
+    float: right;
+    height: 30px;
+    padding: 5px 0 5px 0;
+    width: 150px;
+    background-color: #c4996b;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.Payment{
+    grid-area: payment;
+}
+.Payment-content{
+    background-color: #3f4140;
+    width: fit-content;
+    padding: 15px;
+    color: white;
+}
+.Payment-content h3{
+    margin-bottom: 50px;
+}
+.Payment-content p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.p1{
+    border-bottom: 0.5px solid white;
+}
+.voucher{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.voucher input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    outline-color: darkblue;
+}
+.voucher button{
+    font-size: 12px;
+    padding: 5px;
+    height: 28px;
+    border-radius: 5px;
+    width: 68px;
+    border: none;
+    outline: none;
+    background-color: #c4996b;
+    color: #fff;
+}
+.pay{
+    width: 250px;
+    height: 35px;
+    background-color: #c4996b;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.Guest-info{
+    grid-area: info;
+    width: 600px;
+}
+.Guest-info form h3{
+    background-color: #3F4140;
+    color: white;
+    padding: 10px;
+}
+.Guest-info form table{
+    margin-top: 20px;
+}
+.Guest-info form table td label{
+    margin-right: 100px;
+}
+.Guest-info form table td input{
+    width: 250px;
+    height: 25px;
+    padding-left: 5px;
+}
+.Guest-info form table td select{
+    width: 257px;
+    height: 25px;
+    padding-left: 5px;
+}
+.info{
+    margin-left: 30px;
+    background-color: white;
+    width: 500px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.info table td {
+    padding-bottom: 20px;
+}
+.Guest-info p{
+    margin-bottom: 20px;
+    color: #737373;
+}
+.Guest-info textarea{
+    margin-top: 10px;
+}
+.Guest-wrap{
+    background-color: #909090;
+    padding-top: 20px;
+}
