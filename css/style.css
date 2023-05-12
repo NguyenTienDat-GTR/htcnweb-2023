@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F6F3F3;
+}
+.head-top{
+    background-color: #261511;
+    border-bottom: 0.5px solid #fff;
+}
+.sub-head-top{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+    padding-top: 10px;
+}
+.sub-head-top h2{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sub-head-top nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 400px;
+}
+.sub-head-top nav ul li{
+    display: flex;
+}
+.sub-head-top nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.box-cart{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+.box-cart a{
+    position: relative;
+    top: -7.5px;
+}
+.box-cart i{
+    margin-left: 10px;
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+.count-cart span{
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    padding: 1px 4px;
+}
+.logo-search{
+    background-color: #261511;
+}
+.sub-logo-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    position: relative;
+    left: 350px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.hotline{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotline i{
+    margin-right: 5px;
+    transform: rotate(20deg);
+    font-size: 28px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search-bar input{
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: lightgray;
+}
+.search-bar ion-icon{
+    color: #261511;
+    position: absolute;
+    right: 1px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-menu{
+    background-color: #433330;
+    padding: 10px 0 5px 0;
+    width: 100%;
+}
+.main-menu nav ul{
+    display: flex;
+    gap: 40px;   
+}
+.main-menu nav{
+    margin-left: 250px;
+}
+.main-menu ul{
+    list-style: none;
+
+}
+.main-menu ul a{
+    color: white;
+    text-decoration: none;
+}
+.main-menu ul a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.main-menu nav ul li{
+    position: relative;
+}
+.main-menu nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 19px;
+    left: -12px;
+    display: none;
+}
+.main-menu nav ul li ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+.main-menu ul li:hover ul{
+    display: block;
+    width: 230px;
+    padding: 5px 0 0 15px;
+    height: 300px;
+}
+
+
+/*nội dung của giỏ hàng*/
+.content-container{
+    margin-top: 3rem;
+    background-color: #F6F3F3;
+    height: 100%;
+}
+.content-tilte{
+    display: flex;
+    margin-left: 250px;
+    padding: 10px 0 10px 0;
+    border-bottom: 0.5px solid #DDDDDD;
+    width: 1000px;
+    align-items: center;
+}
+.content-tilte a{
+    color: black;
+    text-decoration: none;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.content-tilte a:hover{
+    color: brown;
+}
+.content-tilte p{
+    font-size: 13px;
+    display: block;
+    padding: 2px 0 0 3px;
+    border-left: 0.25px solid black;
+}
+.main-content{
+    margin-left: 250px;
+    width: 65rem;
+}
+.main-content p{
+    margin-top: 5px;
+    font-size: 17px;
+}
+.main-content p a{
+    color: #261511;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-content p a:hover{
+    color: rgba(86, 16, 16, 0.434);
+}
