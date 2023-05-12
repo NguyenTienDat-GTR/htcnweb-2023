@@ -25,12 +25,12 @@
     font-size: 20px;
 }
 
-#item_MenuChinh {
+.item_MenuChinh {
     text-decoration: none;
     color: #ffffff;
 }
 
-#item_MenuChinh:hover {
+.item_MenuChinh:hover {
     color: #fb9015;
 }
 
@@ -114,7 +114,7 @@
     height: 50px;
     background-color: #4a292d;
     align-items: center;
-    z-index: 1000000;
+    z-index: 100;
 } */
 
 .menu-1 {

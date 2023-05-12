@@ -25,12 +25,12 @@
     font-size: 20px;
 }
 
-#item_MenuChinh {
+.item_MenuChinh {
     text-decoration: none;
     color: #ffffff;
 }
 
-#item_MenuChinh:hover {
+.item_MenuChinh:hover {
     color: #fb9015;
 }
 
@@ -392,16 +392,4 @@ carousel-inner img {
 #tintuc-1 a:hover,
 #tintuc-2 a:hover {
     color: #919191;
-}
-
-
-/* footer */
-
-.footer {
-    width: 1350px;
-    height: 300px;
-    background-color: #4d2f2a;
-    margin: auto;
-    margin-left: -130px;
-    margin-top: 30px;
 }
